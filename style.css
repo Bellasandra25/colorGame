@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(226, 166, 226);
+    flex-direction: column;
+}
+.colorBox {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.colorOptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 10px;
+}
+.colorOption {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
