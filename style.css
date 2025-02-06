@@ -34,3 +34,12 @@
     cursor: pointer;
     border-radius: 50%;
 }
+.newameButton{
+    padding: 10px;
+    background-color: rgb(224, 94, 94);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
